@@ -1,5 +1,5 @@
 #language: pt
-  Funcionalidade: Página "Quem somos"
+Funcionalidade: Página "Quem somos"
 
   Cenario: Acessar Página "Quem somos"
     Dado que cliente acessa o site da Auditeste

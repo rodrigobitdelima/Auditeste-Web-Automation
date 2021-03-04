@@ -1,5 +1,5 @@
 #language: pt
-  Funcionalidade: Página "Blog"
+Funcionalidade: Página "Blog"
 
   Cenario: Acessar Página "Blog"
     Dado que cliente acessa o site da Auditeste

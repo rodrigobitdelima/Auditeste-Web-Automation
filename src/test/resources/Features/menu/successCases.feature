@@ -1,5 +1,5 @@
 #language: pt
-  Funcionalidade: Página "Cases de Sucesso"
+Funcionalidade: Página "Cases de Sucesso"
 
   Cenario: Acessar Página "Cases de Sucesso"
     Dado que cliente acessa o site da Auditeste

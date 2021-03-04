@@ -1,5 +1,5 @@
 #language: pt
-  Funcionalidade: Página "Contato"
+Funcionalidade: Página "Contato"
 
   Cenario: Acessar Página "Contato"
     Dado que cliente acessa o site da Auditeste

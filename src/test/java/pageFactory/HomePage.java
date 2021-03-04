@@ -3,10 +3,8 @@ package pageFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
 public class HomePage {
 
@@ -27,7 +25,7 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void closeWelcomeContactPopup(){
+    public void closeWelcomeContactPopup() {
         contactPopupCloseBtn.click();
     }
 
@@ -35,7 +33,7 @@ public class HomePage {
         requestBudgetBtn.click();
     }
 
-    public void accessMenu(String menuName){
+    public void accessMenu(String menuName) {
         driver.findElement(By.xpath("//li/a[contains(.,'" + menuName + "')]")).click();
     }
 
@@ -44,7 +42,7 @@ public class HomePage {
         driver.findElement(By.xpath("//ul/li/a[contains(.,'" + service + "')]")).click();
     }
 
-    public boolean isBrowserAtPage(String pageTitle){
+    public boolean isBrowserAtPage(String pageTitle) {
         return driver.getPageSource().contains("//" + pageTitle);
     }
 

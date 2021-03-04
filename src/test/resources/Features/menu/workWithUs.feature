@@ -1,5 +1,5 @@
 #language: pt
-  Funcionalidade: Página "Trabalhe Conosco"
+Funcionalidade: Página "Trabalhe Conosco"
 
   Cenario: Acessar Página "Trabalhe Conosco"
     Dado que cliente acessa o site da Auditeste
